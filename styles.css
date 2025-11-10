@@ -1,0 +1,120 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color:#b5179e ;
+}
+.container
+{
+    max-width: 75rem;
+    min-height: 10rem;
+    margin: auto;
+    background-color: #f9d3e1;
+    padding: 1rem;
+}
+
+#pageheader
+{
+    background-color:#D93184;
+    min-height: auto;
+    padding: .25rem;
+}
+#pageheader nav 
+{
+    text-align: center;
+}
+
+#logo
+{
+    background-image:url(Images/Logotransparent.png);
+    width: 6.25rem;
+    height: 6.25rem;
+    border: 1px solid none;
+}
+
+#pageheader .container
+{
+    min-height: auto;
+}
+
+#media
+{
+    background-color: lightblue;
+    min-height: 10rem;
+    padding: 1rem;
+    background-image: url(Images/pinkheroimage-1.png);
+    background-size: cover;
+    aspect-ratio: 16/9;
+}
+#career
+{
+    background-color: #FDB3E8;
+    min-height: 10rem;
+    padding: 1rem;
+}
+#pagecontent
+{
+    background-color: violet;
+    min-height: 10rem;
+    padding: 1rem;
+}
+blockquote
+{
+    color: #D93184;
+    padding: 1rem;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+
+}
+span
+{
+    color: #634BA8;
+}
+blockquote + span
+{
+    padding: 1rem;
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align:right ;
+}
+#semester1
+{
+    background-color: cornflowerblue;
+    min-height: 10rem;
+    padding: 1rem;
+}
+#semester2
+{
+    background-color: purple;
+    min-height: 10rem;
+    padding: 1rem;
+}
+#pagefooter
+{
+    background-color: pink;
+    min-height: auto;
+    padding: 1rem;
+}
+#pagefooter .container
+{
+    min-height: auto;
+    text-align: center;
+}
+#subfooter
+{
+    background-color: #634BA8;
+    min-height: 10rem;
+    padding: 1rem;
+    text-align: center;
+}
+audio
+{
+    background-color: lightpink;
+    border: 5px dotted purple ;
+    display: block;
+    margin: auto;
+}
