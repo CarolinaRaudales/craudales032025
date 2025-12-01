@@ -104,6 +104,22 @@ blockquote + span
     min-height: auto;
     text-align: center;
 }
+
+#aifooter
+{
+    padding: 1rem;
+    background-color: lightseagreen;
+    min-height: auto;
+}
+
+#aifooter .container
+{
+    min-height: auto;
+    text-align: center;
+    
+}
+
+
 #subfooter
 {
     background-color: #634BA8;
