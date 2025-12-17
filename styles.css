@@ -157,7 +157,7 @@ audio
     margin: auto;
 }
 
-@media screen and (min-width:850px)
+@media screen and (min-width:600px)
 {
     #pageheader nav ul 
     {
