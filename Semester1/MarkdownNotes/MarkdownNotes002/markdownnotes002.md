@@ -23,7 +23,7 @@ This rule stand weather you are cutting something or carrying a knife.You're unl
 
 1. **Always cut on a cutting board** NEVER on wooden tables.Don't cut on metal,glass or marble because it will damage a knife's edge.
 
-It is importnat to know the parts of a knife.The parts include:
+It is important to know the parts of a knife.The parts include:
 - tip
 - back
 - bolster
@@ -34,8 +34,32 @@ It is importnat to know the parts of a knife.The parts include:
 - heel
 - handle
 
-![Parts of a knife](Images/yQ5ot.webp)
+![Parts of a knife](Images/partsofknife.webp)
 
 # Types Of Knifes
 
-| Chef's Knife | One of the most commonly used knifes.Perfect for dicing,slicing,a nd chopping
+| Chef's Knife | Bread Knife| Paring Knife | Cleaver | Boning Knife | Carving Knife|
+|--------------| -----------|--------------| --------| -------------| -------------|
+|Commonly used, perfect for dicing slicing,& chopping | Long blades and serrated edges to cut through bread,fluffy cakes, or softer meats | For precise task like finely slice smaller foods | Slicing through thick meat like ribs or cutting poultry bones | Remove bones from raw meats and butterflying pork chops & chicken breasts| Narrow blades with pointed tip,to carve meats like thanksgiving turkey or ham.
+
+![Types of knives ](Images/Knives.png)
+
+## Types of cuts 
+
+- Baton
+- Batonnet
+- Julienne 
+- Large Dice 
+- Small Dice 
+- Brunoise
+- Rondelle 
+- Quarter slice 
+- Diagonal slice 
+
+![Types Of Cuts](Images/knifecuts.jpg)
+
+## Measurements for cuts
+
+| Large dice | Medium Dice | Small Dice | Brunoise | Batonnet | Julienne |Rondelle | Ollique |
+|------------|-------------|------------|----------|----------|----------|---------|---------|
+|3/4 x 3/4 x 3/4| 1/2 x 1/2 x 1/2 | 1/4 x 1/4 x 1/4 | 1/8 x 1/8 x 1/8 | 1/4 x 1/4 x 2-3 | 1/8 x 1/8 x 1-2 | Round cut of varied width & thickness | Rondelle cut but with 90 degree turn on each end to make a diagonal cut
