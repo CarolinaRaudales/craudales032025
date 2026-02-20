@@ -115,6 +115,8 @@ blockquote + span
     min-height: 10rem;
     padding: 1rem;
 }
+
+
 #pagefooter
 {
     background-color: pink;
