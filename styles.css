@@ -1,3 +1,14 @@
+/* Mobile Styles-Default */
+
+:root
+{
+    --primary-color: aqua;
+    --secondary-color: #f9d3e1;
+    --tertiary-color: #634BA8;
+    --main-font:arial;
+}
+    
+
 html
 {
     scroll-behavior: smooth;
@@ -5,16 +16,26 @@ html
 body
 {
     background-color:#b5179e ;
+    
 }
 .container
 {
     max-width: 75rem;
     min-height: 10rem;
     margin: auto;
-    background-color: #f9d3e1;
+    background-color: rgb(239, 197, 203);
     padding: 1rem;
 }
-
+h1
+{
+    color: #634BA8;
+    text-align: center;
+}
+h2
+{
+    color: #634BA8;
+    text-align: center;
+}
 #pageheader
 {
     background-color:#D93184;
@@ -37,15 +58,24 @@ body
 
 #pageheader nav ul li
 {
-    border: 2px solid purple;
+    border: 2px solid #b5179e;
     padding: 1rem;
     margin: 2px;
-    background-color: aliceblue;
+    background-color:#706bce;
 }
-
+#pageheader nav ul li a
+{
+    color: #FDB3E8;
+}
 #pageheader nav ul li:hover
 {
-    background-color: #ffb2d8;
+    background-color: #f9d3e1;
+    
+}
+#pageheader nav ul li a:hover
+{
+    color: #706bce;
+    transition: all 5s smooth;
 }
 
 #logo
@@ -54,6 +84,8 @@ body
     width: 6.25rem;
     height: 6.25rem;
     border: 1px solid none;
+    margin: auto;
+    transition: all 2s smooth;
 }
 
 #pageheader .container
@@ -69,18 +101,38 @@ body
     background-image: url(Images/pinkheroimage-1.png);
     background-size: cover;
     aspect-ratio: 16/9;
+    margin-bottom: 10px;
+    border-radius: 15px;
 }
 #career
 {
-    background-color: #FDB3E8;
+    background-color: #D93184;
     min-height: 10rem;
     padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
+#career h2
+{
+    color: #5bbae0;
+}
+#career a
+{
+    color: #634BA8;
+}
+#career a:hover
+{
+    color:  #D93184;
+    transition: all 2s smooth;
+}
+
 #pagecontent
 {
-    background-color: violet;
+    background-color: #D93184;
     min-height: 10rem;
     padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 blockquote
 {
@@ -105,42 +157,90 @@ blockquote + span
 }
 #semester1
 {
-    background-color: cornflowerblue;
+    background-color: #D93184;
     min-height: 10rem;
     padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#semester1 h2
+{
+    color: #5bbae0;
+}
+#semester1 a
+{
+    color: #634BA8;
+    transition: all 2s smooth;
+}
+#semester1 a:hover
+{
+    color:  #D93184;
 }
 #semester2
 {
-    background-color: purple;
+    background-color: #D93184;
     min-height: 10rem;
     padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
-
+#semester2 h2
+{
+    color: #5bbae0;
+}
+#semester2 a
+{
+    color: #634BA8;
+    transition: all 2s smooth;
+}
+#semester2 a:hover
+{
+    color:  #D93184;
+}
 
 #pagefooter
 {
-    background-color: pink;
+    background-color: #D93184;
     min-height: auto;
     padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 #pagefooter .container
 {
     min-height: auto;
     text-align: center;
 }
+#pagefooter a
+{
+    color: #634BA8;
+}
+#pagefooter a:hover
+{
+    color: #D93184;
+}
 
 #aifooter
 {
     padding: 1rem;
-    background-color: lightseagreen;
+    background-color:#D93184;
     min-height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#aifooter a
+{
+    color: #634BA8;
+}
+#aifooter a:hover
+{
+    color: #D93184;
 }
 
 #aifooter .container
 {
     min-height: auto;
     text-align: center;
-    
 }
 
 
@@ -150,6 +250,7 @@ blockquote + span
     min-height: 10rem;
     padding: 1rem;
     text-align: center;
+    border-radius: 15px;
 }
 audio
 {
@@ -157,13 +258,19 @@ audio
     border: 5px dotted purple ;
     display: block;
     margin: auto;
+    
 }
 
+/* Tablet View */
 @media screen and (min-width:600px)
 {
     #pageheader nav ul 
     {
         margin-top: 2rem;
+    }
+    #logo
+    {
+        margin: 0;
     }
     #pageheader nav ul li
     {
@@ -171,7 +278,7 @@ audio
     }
     #pagecontent
     {
-        background-color: pink;
+        background-color: #D93184;
     }
 }
 
@@ -179,7 +286,7 @@ audio
 {
     #pagecontent
     {
-        background-color: blue;
+        background-color: #D93184;
     }
 
 }
