@@ -83,7 +83,8 @@ h2
     background-image:url(Images/Logotransparent.png);
     width: 6.25rem;
     height: 6.25rem;
-    border: 1px solid none;
+    border: 3px dotted rgb(192, 42, 69);
+    border-radius: 4rem;
     margin: auto;
     transition: all 2s smooth;
 }
