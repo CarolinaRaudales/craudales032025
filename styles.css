@@ -17,6 +17,7 @@ body
 {
     background-color:#b5179e ;
     
+    
 }
 .container
 {
@@ -228,6 +229,7 @@ blockquote + span
     min-height: auto;
     border-radius: 15px;
     margin-bottom: 10px;
+
 }
 #aifooter a
 {
@@ -252,6 +254,13 @@ blockquote + span
     padding: 1rem;
     text-align: center;
     border-radius: 15px;
+}
+
+#subfooter .container
+{
+    background-image: url(Images/MyLittlePony/mylittlepony7.png);
+    background-size: contain;
+
 }
 audio
 {
