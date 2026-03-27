@@ -26,7 +26,6 @@ body
     margin: auto;
     background-color: rgb(239, 197, 203);
     padding: 1rem;
-    border-radius: 1rem;
 }
 h1
 {
@@ -40,12 +39,9 @@ h2
 }
 #pageheader
 {
-    background-image: url(Images/polkadot.png);
+    background-color:#D93184;
     min-height: auto;
     padding: .25rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
 }
 #pageheader nav 
 {
@@ -67,19 +63,10 @@ h2
     padding: 1rem;
     margin: 2px;
     background-color:#706bce;
-    border-radius: 0.5rem;
-    
-}
-#pageheader nav ul li:hover
-{
-    transform: scale(1.05);
-    box-shadow: 0 0 15px #D93184;
-    transition: all 0.3s ease-in-out;
 }
 #pageheader nav ul li a
 {
     color: #FDB3E8;
-    
 }
 #pageheader nav ul li:hover
 {
@@ -108,7 +95,6 @@ h2
     min-height: auto;
 }
 
-
 #media
 {
     background-color: lightblue;
@@ -122,11 +108,12 @@ h2
 }
 #career
 {
-    background-image: url(Images/polkadot.png);
+    background-color: #D93184;
     min-height: 10rem;
     padding: 1rem;
     border-radius: 15px;
     margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #career h2
 {
@@ -144,7 +131,7 @@ h2
 
 #pagecontent
 {
-    background-image: url(Images/polkadot.png);
+    background-color: #D93184;
     min-height: 10rem;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -173,7 +160,7 @@ blockquote + span
 }
 #semester1
 {
-    background-image: url(Images/polkadot.png);
+    background-color: #D93184;
     min-height: 10rem;
     padding: 1rem;
     border-radius: 15px;
@@ -194,13 +181,12 @@ blockquote + span
 }
 #semester2
 {
-    background-image: url(Images/polkadot.png);
+    background-color: #D93184;
     min-height: 10rem;
     padding: 1rem;
     border-radius: 15px;
     margin-bottom: 10px;
 }
-
 #semester2 h2
 {
     color: #5bbae0;
@@ -219,12 +205,11 @@ blockquote + span
 
 #pagefooter
 {
-    background-image: url(Images/polkadot.png);
+    background-color: #D93184;
     min-height: auto;
     padding: 1rem;
     border-radius: 15px;
     margin-bottom: 10px;
-
 }
 #pagefooter .container
 {
@@ -243,11 +228,10 @@ blockquote + span
 #aifooter
 {
     padding: 1rem;
-    background-image: url(Images/polkadot.png);
+    background-color:#D93184;
     min-height: auto;
     border-radius: 15px;
     margin-bottom: 10px;
-
 
 }
 #aifooter a
@@ -274,14 +258,13 @@ blockquote + span
     padding: 1rem;
     text-align: center;
     border-radius: 15px;
-    background-image: url(Images/Untitled-1.png);
-    repeat:no-repeat;
 }
 
 #subfooter .container
 {
+    background-image: url();
     background-size: contain;
-    
+
 }
 
 #cards
@@ -297,43 +280,35 @@ blockquote + span
     
     border-radius: 1rem;  
     padding: 20px;                 
-    background-image: url(Images/polkadots5.jpg);
+    background-color: #f9d3e1;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
 
-}
-
-#cards h2
-{
-    color: #D93184;
 }
 
 .card {
     padding: 1rem;
     background-color: #fff;
     width: 300px;
+    border-radius: 1rem;
     box-shadow: 5px 5px 5px black;
     border: 3px solid #634BA8;
     border-radius: 1rem;
     margin-bottom: 1rem;
-
 }
 
-.card:hover 
-{
+.card:hover {
     border: 3px solid #D93184;
     transform: scale(1.05);
     box-shadow: 0 0 15px #D93184;
     transition: all 0.3s ease-in-out;
 }
 
-.fbcards 
-{
+.fbcards {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-
 }
 
 
@@ -341,10 +316,8 @@ audio
 {
     background-color: lightpink;
     border: 5px dotted purple ;
-    border-radius: 2rem;
     display: block;
     margin: auto;
-
     
 }
 
