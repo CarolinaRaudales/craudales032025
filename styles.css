@@ -32,11 +32,13 @@ h1
 {
     color: #634BA8;
     text-align: center;
+    font-family: "Ribeye", serif;
 }
 h2
 {
     color: #634BA8;
     text-align: center;
+    font-family: "Kalnia Glaze", serif;
 }
 #pageheader
 {
@@ -135,6 +137,7 @@ h2
 #career a
 {
     color: #634BA8;
+    font-family: "Ribeye", serif;
 }
 #career a:hover
 {
@@ -157,11 +160,12 @@ blockquote
     width: 30%;
     margin: 0 auto;
     font-size: 1.25rem;
-
+    font-family: "Ribeye", serif;
 }
 span
 {
     color: #634BA8;
+    font-family: "Ribeye", serif;
 }
 blockquote + span
 {
@@ -179,6 +183,7 @@ blockquote + span
     border-radius: 15px;
     margin-bottom: 10px;
 }
+
 #semester1 h2
 {
     color: #5bbae0;
@@ -187,6 +192,9 @@ blockquote + span
 {
     color: #634BA8;
     transition: all 2s smooth;
+    font-family: "Ribeye", serif;
+
+
 }
 #semester1 a:hover
 {
@@ -209,10 +217,16 @@ blockquote + span
 {
     color: #634BA8;
     transition: all 2s smooth;
+    font-family: "Ribeye", serif;
 }
 #semester2 a:hover
 {
     color:  #D93184;
+}
+#pagecontent p
+{
+    color: #634BA8;
+    font-family: "Kalnia Glaze", serif;
 }
 
 
@@ -234,11 +248,13 @@ blockquote + span
 #pagefooter a
 {
     color: #634BA8;
+    font-family: "Ribeye", serif;
 }
 #pagefooter a:hover
 {
     color: #D93184;
 }
+
 
 #aifooter
 {
@@ -253,6 +269,7 @@ blockquote + span
 #aifooter a
 {
     color: #634BA8;
+    font-family: "Ribeye", serif;
 }
 #aifooter a:hover
 {
@@ -276,6 +293,7 @@ blockquote + span
     border-radius: 15px;
     background-image: url(Images/Untitled-1.png);
     repeat:no-repeat;
+
 }
 
 #subfooter .container
@@ -348,19 +366,45 @@ audio
     
 }
 
-.henny-penny-regular 
+.ribeye-regular 
 {
-    font-family: "Henny Penny", system-ui;
+    font-family: "Ribeye", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.barriecito-regular 
+
+.sunshiney-regular 
 {
-    font-family: "Barriecito", system-ui;
+    font-family: "Sunshiney", cursive;
     font-weight: 400;
     font-style: normal;
 }
+
+.emilys-candy-regular {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.kalnia-glaze-regular 
+{
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: <300>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+}
+.style-script-regular {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 
 /* Tablet View */
