@@ -27,7 +27,16 @@ body
     background-color: rgb(239, 197, 203);
     padding: 1rem;
     border-radius: 1rem;
+    border: 4px dotted white;
 }
+
+
+#pagecontent .container
+{
+    background-color: #f8f6c0;
+    border: 4px dotted #5bbae0
+}
+
 h1
 {
     color: #634BA8;
@@ -36,9 +45,8 @@ h1
 }
 h2
 {
-    color: #634BA8;
+    color: #5bbae0;
     text-align: center;
-    font-family: "Kalnia Glaze", serif;
 }
 #pageheader
 {
@@ -48,6 +56,10 @@ h2
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 1rem;
+}
+#pageheader .container
+{
+   /* background-image: url(Images/sprinkles.png); */
 }
 #pageheader nav 
 {
@@ -81,6 +93,7 @@ h2
 #pageheader nav ul li a
 {
     color: #FDB3E8;
+    font-family: "Ribeye", serif;
     
 }
 #pageheader nav ul li:hover
@@ -108,6 +121,7 @@ h2
 #pageheader .container
 {
     min-height: auto;
+    border: 3px dotted white;
 }
 
 
@@ -122,7 +136,85 @@ h2
     margin-bottom: 10px;
     border-radius: 15px;
 }
+
+
+
+/* ========================= */
+/*  CAREER SECTION UPDATED */
+/* ========================= */
+
 #career
+{
+    background-image: url(Images/polkadot.png);
+    min-height: 10rem;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#career h2
+{
+    color: #5bbae0;
+}
+
+/*  NEW FLEXBOX CONTAINER */
+#cardcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+/*  CARD DESIGN */
+.career-card
+{
+    width: 200px;
+    background-color: white;
+    border: 3px solid #634BA8;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.3s ease-in-out;
+    background-image: url(Images/MyLittlePony/polkadots11.png);
+}
+
+/* hover effect */
+.career-card:hover
+{
+    transform: scale(1.05);
+    border-color: #D93184;
+    box-shadow: 0 0 15px #D93184;
+}
+
+/* images inside cards */
+.career-card img
+{
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* links inside cards */
+.career-card a
+{
+    display: block;
+    text-decoration: none;
+    font-family: "Ribeye", serif;
+    color: #6ca7be;
+}
+
+.career-card a:hover
+{
+    color: #D93184;
+}
+
+/* OLD CAREER SECTION */
+
+/* #career
 {
     background-image: url(Images/polkadot.png);
     min-height: 10rem;
@@ -143,7 +235,8 @@ h2
 {
     color:  #D93184;
     transition: all 2s smooth;
-}
+} */
+
 
 #pagecontent
 {
@@ -183,6 +276,10 @@ blockquote + span
     border-radius: 15px;
     margin-bottom: 10px;
 }
+#semester1 .container
+{
+    border: 3px dotted white;
+}
 
 #semester1 h2
 {
@@ -207,6 +304,11 @@ blockquote + span
     padding: 1rem;
     border-radius: 15px;
     margin-bottom: 10px;
+}
+
+#semester2 .container
+{
+    border: 3px dotted white;
 }
 
 #semester2 h2
@@ -330,7 +432,7 @@ blockquote + span
     background-color: #fff;
     width: 300px;
     box-shadow: 5px 5px 5px black;
-    border: 3px solid #634BA8;
+    border: 3px solid #5bbae0;
     border-radius: 1rem;
     margin-bottom: 1rem;
 

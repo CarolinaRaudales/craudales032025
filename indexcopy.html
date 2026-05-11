@@ -1,0 +1,589 @@
+<style>
+    /* Mobile Styles-Default */
+
+:root
+{
+    --primary-color: aqua;
+    --secondary-color: #f9d3e1;
+    --tertiary-color: #634BA8;
+    --main-font:arial;
+}
+    
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color:#b5179e ;
+}
+
+.container
+{
+    max-width: 75rem;
+    min-height: 10rem;
+    margin: auto;
+    background-color: rgb(239, 197, 203);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+h1
+{
+    color: #634BA8;
+    text-align: center;
+    font-family: "Ribeye", serif;
+}
+
+h2
+{
+    color: #634BA8;
+    text-align: center;
+    font-family: "Kalnia Glaze", serif;
+}
+
+/* HEADER */
+
+#pageheader
+{
+    background-image: url(Images/polkadot.png);
+    min-height: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+#pageheader nav 
+{
+    text-align: center;
+}
+
+#pageheader nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#pageheader nav ul li
+{
+    border: 2px solid #b5179e;
+    padding: 1rem;
+    margin: 2px;
+    background-color:#706bce;
+    border-radius: 0.5rem;
+}
+
+#pageheader nav ul li:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #D93184;
+    transition: all 0.3s ease-in-out;
+    background-color: #f9d3e1;
+}
+
+#pageheader nav ul li a
+{
+    color: #FDB3E8;
+    font-family: "Ribeye", serif;
+    text-decoration: none;
+}
+
+#logo
+{
+    background-image:url(Images/Logotransparent.png);
+    width: 6.25rem;
+    height: 6.25rem;
+    border: 3px dotted rgb(192, 42, 69);
+    border-radius: 4rem;
+    margin: auto;
+    transition: all 2s smooth;
+}
+
+/* MEDIA */
+
+#media
+{
+    background-color: lightblue;
+    min-height: 10rem;
+    padding: 1rem;
+    background-image: url(Images/pinkheroimage-1.png);
+    background-size: cover;
+    aspect-ratio: 16/9;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+/* PAGE CONTENT */
+
+#pagecontent
+{
+    background-image: url(Images/polkadot.png);
+    min-height: 10rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+blockquote
+{
+    color: #D93184;
+    padding: 1rem;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-family: "Ribeye", serif;
+}
+
+span
+{
+    color: #634BA8;
+    font-family: "Ribeye", serif;
+}
+
+blockquote + span
+{
+    padding: 1rem;
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align:right ;
+}
+
+#pagecontent p
+{
+    color: #634BA8;
+    font-family: "Kalnia Glaze", serif;
+}
+
+/* ========================= */
+/* ✅ CAREER SECTION UPDATED */
+/* ========================= */
+
+#career
+{
+    background-image: url(Images/polkadot.png);
+    min-height: 10rem;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#career h2
+{
+    color: #5bbae0;
+}
+
+/* 🔥 NEW FLEXBOX CONTAINER */
+#cardcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* 🔥 CARD DESIGN */
+.career-card
+{
+    width: 200px;
+    background-color: white;
+    border: 3px solid #634BA8;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.3s ease-in-out;
+}
+
+/* hover effect */
+.career-card:hover
+{
+    transform: scale(1.05);
+    border-color: #D93184;
+    box-shadow: 0 0 15px #D93184;
+}
+
+/* images inside cards */
+.career-card img
+{
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* links inside cards */
+.career-card a
+{
+    display: block;
+    text-decoration: none;
+    font-family: "Ribeye", serif;
+    color: #634BA8;
+}
+
+.career-card a:hover
+{
+    color: #D93184;
+}
+
+/* ========================= */
+/* SEMESTER 1 */
+/* ========================= */
+
+#semester1
+{
+    background-image: url(Images/polkadot.png);
+    min-height: 10rem;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#semester1 h2
+{
+    color: #5bbae0;
+}
+
+/* ========================= */
+/* SEMESTER 2 */
+/* ========================= */
+
+#semester2
+{
+    background-image: url(Images/polkadot.png);
+    min-height: 10rem;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#semester2 h2
+{
+    color: #5bbae0;
+}
+
+/* ========================= */
+/* FOOTERS */
+/* ========================= */
+
+#pagefooter,
+#aifooter,
+#subfooter
+{
+    text-align: center;
+}
+
+/* ========================= */
+/* PLAYLIST CARDS (UNCHANGED) */
+/* ========================= */
+
+.fbcards 
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card 
+{
+    padding: 1rem;
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 5px 5px 5px black;
+    border: 3px solid #634BA8;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card:hover 
+{
+    border: 3px solid #D93184;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #D93184;
+}
+
+/* AUDIO */
+
+audio
+{
+    background-color: lightpink;
+    border: 5px dotted purple ;
+    border-radius: 2rem;
+    display: block;
+    margin: auto;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 600px)
+{
+    .card
+    {
+        width: 90%;
+    }
+}
+</style>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolina Raudales - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Kalnia+Glaze:wght@100..700&family=Ribeye&family=Style+Script&family=Sunshiney&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <!-- Begin Header -->
+    <header id="pageheader">
+        <div class="container">
+        
+            <a href="https://craudales032025.netlify.app/"><div id="logo"></div></a>
+            <nav id="topnav">
+
+              <ul>
+                    <li><a href="index.html">Home </a></li>
+                   <li> <a href="#career">Career</a>  </li>
+                    <li><a href="#semester1">Semester 1</a>  </li>
+                    <li><a href="#semester2">Semester 2</a></li>
+                    <li><a href="#aifooter">AI Tools</a></li>
+                    <li><a href="worksamples.html">Work samples</a>  </li>
+                    <li><a href="certificates.html">Certificates</a> </li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+              </ul>
+            </nav>
+
+
+        </div>
+        
+    </header>
+
+        
+    <!-- End Header -->
+
+    <!-- Begin Media -->
+    <section id="media"></section>
+
+    <!-- End media -->
+
+
+    <!-- Begin PageContent -->
+    <main id="pagecontent">
+        <div class="container">
+            <h1>Carolina Raudales</h1>
+            <h2>Portfolio</h2>
+            <blockquote>
+                &quot;Everything has beauty, but not everyone sees it. &quot;
+            </blockquote>
+            <span>
+                - Confucius
+            </span>
+            <p>Welcome to my portfolio! My name is Carolina Raudales, a dedicated high school senior passionate about learning and growth.Something about me is that I have 11 cats so I consider myself a crazy cat lady. This website showcases my academic and professional journey, featuring work samples, career-related documents, and certifications I have earned. My Career section highlights essential documents such as my resume, job application, and letters of introduction, reflecting my preparation for future opportunities. 
+</p>
+            <p>In the Certificates section, I showcase my achievements, demonstrating my commitment to expanding my skills and knowledge. Throughout my coursework, I have developed expertise in research, design, and digital media, which you can explore in my semester projects and creative work samples.For my website I decided to make the theme based off My Little Pony because I like to let my inner child out . Thank you for visiting, and I hope you enjoy exploring my work!
+</p>
+        </div>
+    </main>
+    <!-- End PageContent -->
+
+
+    <!-- Begin Career -->
+   
+            <section id="career">
+    <div class="container">
+        <h2>Career</h2>
+
+        <div id="cardcontainer">
+
+            <section class="career-card">
+                <img src="Images/MyLittlePony/twilightsparkle.png" alt="Career Plan">
+                <a href="Career/career_action_plan.pdf">Career Action Plan</a>
+            </section>
+
+            <section class="career-card">
+                <img src="Images/strawberry logos/strawberryworker.png" alt="Job Application">
+                <a href="Career/job_application.pdf">Job Application</a>
+            </section>
+
+            <section class="career-card">
+                <img src="Images/strawberry logos/strawberry&catposing.png" alt="Letter of Introduction">
+                <a href="Career/Letter of Introduction - AI.pdf">Letter of Introduction</a>
+            </section>
+
+            <section class="career-card">
+                <img src="Images/strawberry logos/strawberrylogo4.png" alt="References">
+                <a href="Career/References.pdf">References</a>
+            </section>
+
+            <section class="career-card">
+                <img src="Images/strawberry logos/strawberrylogo1.png" alt="Resume">
+                <a href="Career/Resume - AI.pdf">Resume</a>
+            </section>
+
+            <section class="career-card">
+                <img src="Images/strawberry logos/strawberrylogo2.png" alt="Recommendation Letter">
+                <a href="">Recommendation Letter</a>
+            </section>
+
+        </div>
+    </div>
+</section>
+    <!-- End Career -->
+
+    
+
+    <!-- Begin Semester1 -->
+    <section id="semester1">
+        <div class="container">
+            <h2>Semester 1</h2>
+            <ul>
+                <li><a href="Semester1/Poster/Poster Period 3/posterperiod3.pdf">Social Contract Poster Period 3</a></li>
+                <li><a href="Semester1/Poster/Poster Period 7/posterperiod7.pdf">Social Contract Poster Period 7</a></li>
+                <li><a href="Semester1/Wallpaper/Wallpaper.png">Desktop Wallpaper</a></li>
+                <li><a href="Images/Logo.png">AI Portfolio Logo</a></li>
+                <li><a href="Semester1/MyLittlePonyMasking/mylittleponymasking.pdf">Masked Image</a></li>
+                <li><a href="Semester1/Terminal Notes.pdf">Terminal Notes</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- End Semester1 -->
+    
+    <!-- Begin Semester2 -->
+    <!-- TODO uncomment at the beginning of Semester 2 -->
+    <section id="semester2">
+        <div class="container">
+            <h2>Semester 2</h2>
+            <ul>
+                <li><a href="Demos/Flexbox001/flexbox_justify_content.html">FlexboxJC1</a></li>
+                <li><a href="Demos/Flexbox001/flexbox_justify_content_application.html">FlexboxJC2</a></li>
+                <li><a href="Semester2/FlexboxJC3A/flexboxjc3a.html">FlexboxJC3A</a></li>
+                <li><a href="Semester2/FlexboxJC3B/flexboxjc3b.html">FlexboxJC3B</a></li>
+                <li><a href="Semester2/FlexboxAI1/FlexboxAlignItems/flexbox_align_items.html">FlexboxAI1</a></li>
+                <li><a href="Semester2/FlexboxJCAI/flexboxJCAI.html">FlexboxJCAI</a></li>
+                <li><a href="Demos/Flexbox005/flexbox_align_self_order.html">FlexboxASO</a></li>
+                <li><a href="Demos/Flexbox006/flexbox_wrap_align_content.html">FlexboxWAC</a></li>
+                <li><a href="Semester2/PhotoGallery/photogallery.html">Flexbox Photo Gallery</a></li>
+                <li><a href="Semester2/FixedMenu/fixed_menu.html">Flexbox Fixed Menu</a></li>
+                <li><a href="Semester2/Cards/cards.html">Cards - Flexbox</a></li>
+                <li><a href="Semester2/Footer/footer.html">Flexbox Responsive Footer</a></li>
+                <li><a href="Semester2/Header/header.html">Responsive Flexbox Header</a></li>
+                <li><a href="Semester2/HeroImage/hero_image.html">Hero Image</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- End Semester2 -->
+    
+
+        </section>
+    </div>
+</section>
+
+    <!-- Begin Footer -->
+    <section id="pagefooter">
+        <div class="container">
+
+                <nav>
+                    <a href="https://chs.chusd.org/">CHS</a>|
+                    <a href="https://color.adobe.com/create/color-wheel">Adobe Color </a>| 
+                    <a href="https://coalingahuron.aeries.net/">Aeries</a> | 
+                    <a href="https://classroom.google.com/">Classroom</a> |
+                    <a href="https://minga.io/">Minga </a> |
+                    <a href="Semester1/Terminal Notes/Terminal Notes.pdf">Terminal</a> |
+                    <a href="GitAndGitHub/git.html">Git |</a>
+                    <a href="https://github.com/">GitHub</a>
+                </nav>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Begin AI Footer -->
+    <section id="aifooter">
+        <div class="container">
+            <nav>
+                <a href="https://firefly.adobe.com/">Firefly</a> | 
+                <a href="https://suno.com/">Sonu</a> | 
+                <a href="https://chatgpt.com/">ChatGBT</a> | 
+                <a href="https://gemini.google.com/app">Gemini</a> |
+                <a href="https://copilot.microsoft.com/">Copilot</a> | 
+                <a href="https://claude.ai">Claude</a> | 
+                <a href="https://www.perplexity.ai">Perplexity</a> | 
+                <a href="https://notebooklm.google">NotebookLM</a> |
+                <a href="https://grok.com/">Grok</a>
+            </nav>
+        </div>
+    </section>
+
+    <!-- End AI Footer -->
+
+    <!-- Cards begin -->
+    <section id="cards">
+    <div class="container">
+        <h2>My Playlists</h2>
+
+        <section class="fbcards">
+
+            <section class="card">
+                <iframe 
+                style="border-radius:12px" 
+                src="https://open.spotify.com/embed/playlist/5gugISI9jO9tDGnEMzlIRu?utm_source=generator&theme=0" 
+                width="100%" height="352" frameborder="0" allowfullscreen 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                </iframe>
+            </section>
+
+            <section class="card">
+                <iframe 
+                style="border-radius:12px" 
+                src="https://open.spotify.com/embed/playlist/6VqKrDy8gqxnTlQ58FJZlM?utm_source=generator" 
+                width="100%" height="352" frameborder="0" allowfullscreen 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                </iframe>
+            </section>
+
+            <section class="card">
+                <iframe 
+                style="border-radius:12px" 
+                src="https://open.spotify.com/embed/playlist/6YbCfov0p1O9WfnGX3578P?utm_source=generator" 
+                width="100%" height="352" frameborder="0" allowfullscreen 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                </iframe>
+            </section>
+        </section>
+    </div>
+</section>
+    
+    <!-- Begin SubFooter -->
+    <section id="subfooter">
+        <div class="container">
+            <p>&copy; Carolina Raudales 2025</p>
+            <audio src="Audio/codingin308.mp3" controls loop="loop"></audio>
+        </div>
+    </section>
+
+
+
+<!-- *more Robus Audio with Backup -->
+            <!-- <audio>
+                <source src="filename.mp3" type="audio/mpeg">
+                <source src="filename.ogg" type="audio/ogg">
+                <source>
+            </audio> -->
+        </div>
+    </section>
+    <!-- End SubFooter -->
+</body>
+</html>
