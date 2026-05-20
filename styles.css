@@ -128,11 +128,13 @@ h2
 #media
 {
     background-color: lightblue;
-    min-height: 10rem;
+    /* min-height: 10rem; */
     padding: 1rem;
+    height: 70vh;
     background-image: url(Images/pinkheroimage-1.png);
+    background-position: center center;
     background-size: cover;
-    aspect-ratio: 16/9;
+    /* aspect-ratio: 16/9; */
     margin-bottom: 10px;
     border-radius: 15px;
 }
@@ -281,6 +283,15 @@ blockquote + span
     border: 3px dotted white;
 }
 
+#semester1 ul
+{
+    list-style-type: none;
+}
+#semester1 i
+{
+    color: #D93184;
+    margin-right: 10px;
+}
 #semester1 h2
 {
     color: #5bbae0;
@@ -310,6 +321,16 @@ blockquote + span
 {
     border: 3px dotted white;
 }
+#semester2 ul
+{
+    list-style-type: none;
+}
+
+#semester2 i
+{
+    color: #D93184;
+    margin-right: 10px;
+}
 
 #semester2 h2
 {
@@ -325,6 +346,64 @@ blockquote + span
 {
     color:  #D93184;
 }
+#worksamples
+{
+    background-image: url(Images/polkadot.png);
+    min-height: 10rem;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#worksamples a
+{
+    color: #634BA8;
+    font-family: "Ribeye", serif;
+}
+#worksamples a:hover
+{
+    color: #D93184;
+}
+
+
+#worksamples i
+{
+    color: #D93184;
+    margin-right: 10px;
+    
+}
+#worksamples ul
+{
+    list-style-type: none;
+}
+
+#certificates
+{
+    background-image: url(Images/polkadot.png);
+    min-height: 10rem;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#certificates ul
+{
+    list-style-type: none;
+}
+#certificates i
+{
+    color: #D93184;
+    margin-right: 10px;
+}
+#certificates a
+{
+    color: #634BA8;
+    font-family: "Ribeye", serif;
+}
+
+#certificates a:hover
+{
+    color: #D93184;
+}
+
 #pagecontent p
 {
     color: #634BA8;
